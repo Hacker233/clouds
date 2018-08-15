@@ -44,6 +44,7 @@ body{
     margin-bottom: 10px;
 }
 .foot textarea {
+    resize: none;
     font-family:'myfont';
     font-style: oblique;
     font-size: 15px;
@@ -71,7 +72,7 @@ body{
     font-weight: 900;
     color: rgb(247, 232, 232);
     position: absolute;
-    left: 180px;
+    left: 50%;
     top: 160px;
 }
 
