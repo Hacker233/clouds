@@ -64,6 +64,17 @@ body{
     width: 80px;
     height: 80px;
     margin-top: 20px;
+    animation: img-btn 0.5s infinite;
+    -moz-animation: img-btn 0.5s infinite;	/* Firefox */
+    -webkit-animation: img-btn 0.5s infinite;	/* Safari 和 Chrome */
+    -o-animation: img-btn 0.5s infinite;
+}
+@keyframes img-btn{
+    0% {width: 81px;height: 81px;}
+    /* 25% {width: 82px;height: 82px;}
+    50% {width: 83px;height: 83px;}
+    75% {width: 84px;height: 84px;} */
+    100% {width: 84px;height: 84px;}
 }
 .foot span {
     font-family:'myfont';
